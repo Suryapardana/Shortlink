@@ -18,7 +18,7 @@ class short:
                          get = api_url+ "?" \
                                +urllib.parse.urlencode({"url": url})
                          req = requests.get(get)
-if __name__ == '__main__':
+  if __name__ == '__main__':
         os.system('clear')
         def angga():
                   print"""
