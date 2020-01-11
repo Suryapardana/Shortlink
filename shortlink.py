@@ -39,7 +39,7 @@ class short:
                          print ("+[!] Error"+e)
                          sys.exit()
 
-  if __name__ == '__main__':
+if __name__ == '__main__':
         os.system('clear')
         def angga():
                   print"""
