@@ -18,17 +18,6 @@ class short:
                          get = api_url+ "?" \
                                +urllib.parse.urlencode({"url": url})
                          req = requests.get(get)
-  if __name__ == '__main__':
-        os.system('clear')
-        def angga():
-                  print"""
-                  Welcome Di Tools Shortlink
-                  Coded By SuryaPardana
-                  Selamat Menggunakan"""
-        print ('\033[36m╔═════════════════════════════════════════╗')
-        url = input('\033[37m║\033[37m [\033[32m*\033[37m] Url\033[31m: \033[37m')
-        print ('\033[36m╚═════════════════════════════════════════╝')
-        short().main(url)
 
 
                          if "Error" in req.text:
@@ -49,5 +38,18 @@ class short:
                  except Exception as e:
                          print ("+[!] Error"+e)
                          sys.exit()
+
+  if __name__ == '__main__':
+        os.system('clear')
+        def angga():
+                  print"""
+                  Welcome Di Tools Shortlink
+                  Coded By SuryaPardana
+                  Selamat Menggunakan"""
+        print ('\033[36m╔═════════════════════════════════════════╗')
+        url = input('\033[37m║\033[37m [\033[32m*\033[37m] Url\033[31m: \033[37m')
+        print ('\033[36m╚═════════════════════════════════════════╝')
+        short().main(url)
+
 
 
