@@ -42,10 +42,10 @@ class short:
 if __name__ == '__main__':
         os.system('clear')
         def angga():
-                  print"""
-                  Welcome Di Tools Shortlink
-                  Coded By SuryaPardana
-                  Selamat Menggunakan"""
+                  print"Welcome Di Tools Shortlink"
+                  print"Coded By SuryaPardana"
+                  print"Selamat menggunakan"
+                  angga()
         print ('\033[36m╔═════════════════════════════════════════╗')
         url = input('\033[37m║\033[37m [\033[32m*\033[37m] Url\033[31m: \033[37m')
         print ('\033[36m╚═════════════════════════════════════════╝')
